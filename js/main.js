@@ -23,5 +23,15 @@ for (var i = 0; i < stringArray.length; i++) {
 
  }
 
- 
+ console.log(myObj.name);
+ console.log(myObj.age);
+ console.log(myObj.isCool);
+
+ var heading1 = document.getElementById("heading1");
+ var heading2 = document.getElementById("heading2");
+ var heading3 = document.getElementById("heading3");
+
+ heading1.innerHTML = myObj.name;
+ heading2.innerHTML = myObj.age;
+ heading3.innerHTML = myObj.isCool;
  
