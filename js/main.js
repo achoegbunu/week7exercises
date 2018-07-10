@@ -34,4 +34,32 @@ for (var i = 0; i < stringArray.length; i++) {
  heading1.innerHTML = myObj.name;
  heading2.innerHTML = myObj.age;
  heading3.innerHTML = myObj.isCool;
+
+ var myArray = [
+        {
+        	name: "Aladi",
+        	gender: "female",
+        	relation: "sister"
+        },
+
+        {
+        	name: "Adejo",
+        	gender: "male",
+        	relation: "brother"
+        },
+
+        {
+        	name: "Gabriel",
+        	gender: "male",
+        	relation: "uncle"
+        }
+ ];
+
+ for (var i = 0; i < myArray.length; i++) {
+ 	console.log(myArray[i].name);
+ 	console.log(myArray[i].gender);
+ 	console.log(myArray[i].relation);
+ }
+
+ document.body.style.color = "red";
  
